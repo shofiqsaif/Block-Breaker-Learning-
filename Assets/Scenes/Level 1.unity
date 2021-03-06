@@ -6424,6 +6424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Space
       objectReference: {fileID: 0}
+    - target: {fileID: 8797746628558649879, guid: 32638514967b93c4f810dd1684d6a080,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 931ef418f6274c748b9199ee5959a8e9, type: 2}
     - target: {fileID: 8797746629701391867, guid: 32638514967b93c4f810dd1684d6a080,
         type: 3}
       propertyPath: SL

@@ -1606,6 +1606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 7764188047106516381, guid: 7aa4be55bb043dd49a0d42295cd0a19f,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7764188047106516383, guid: 7aa4be55bb043dd49a0d42295cd0a19f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1741,6 +1746,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Space
       objectReference: {fileID: 0}
+    - target: {fileID: 8797746628558649879, guid: 32638514967b93c4f810dd1684d6a080,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 931ef418f6274c748b9199ee5959a8e9, type: 2}
     - target: {fileID: 8797746629701391867, guid: 32638514967b93c4f810dd1684d6a080,
         type: 3}
       propertyPath: SL

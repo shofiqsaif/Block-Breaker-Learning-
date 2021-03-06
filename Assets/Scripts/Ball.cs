@@ -12,6 +12,8 @@ public class Ball : MonoBehaviour
     // States
     Vector2 paddleToBallVector;
     bool hasStarted = false;
+    int ballYDirection = 1;
+    int ballXDirection = 1;
 
 
     // Start is called before the first frame update
@@ -23,7 +25,10 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!hasStarted)
+        //Debug.Log(GetComponent<Rigidbody2D>().velocity);
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(ballXDirection * launchVelocity.x, ballYDirection * launchVelocity.y);
+        if (!hasStarted)
         {
             LockBallToPaddle();
             LaunchBall();
@@ -44,5 +49,21 @@ public class Ball : MonoBehaviour
     {
         Vector2 paddlePos = paddle1.transform.position;
         transform.position = paddlePos + paddleToBallVector;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        string collidedWith = collision.gameObject.name;
+        if ( collidedWith == "Right Wall" || collidedWith == "Left Wall")
+        {
+            ballXDirection = -ballXDirection;
+        }
+        else
+        {
+            ballYDirection = -1 * ballYDirection;
+        }
+        
+        //Debug.Log(collision.gameObject.name);
+        //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, launchVelocity.y);
     }
 }
