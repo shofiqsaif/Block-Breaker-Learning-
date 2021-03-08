@@ -13,6 +13,8 @@ public class SceneLoder : MonoBehaviour
 
     public void LoadStartingScene()
     {
+        GameSession gameState = FindObjectOfType<GameSession>();
+        gameState.DestroyYourself();
         SceneManager.LoadScene(0);
     }
 
