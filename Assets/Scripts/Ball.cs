@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour
     //config Param
     [SerializeField] Paddle paddle1;
     [SerializeField] Vector2 launchVelocity;
+    [SerializeField] AudioClip[] ballSounds;
     
     // States
     Vector2 paddleToBallVector;
@@ -62,6 +63,9 @@ public class Ball : MonoBehaviour
         {
             ballYDirection = -1 * ballYDirection;
         }
+
+        //AudioClip clip = ballSounds[UnityEngine.Random.Range(0,ballSounds.Length)];
+        //GetComponent<AudioSource>().PlayOneShot(clip);
         
         //Debug.Log(collision.gameObject.name);
         //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, launchVelocity.y);
