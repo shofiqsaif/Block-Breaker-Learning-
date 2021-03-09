@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7962940482908019056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.633802
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.6077998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694088, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694089, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.06318303
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694089, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694090, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: maxHits
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694090, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: hitSprits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694090, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: hitSprits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c206faf364c568a4e9d7c41e97af04a9,
+        type: 3}
+    - target: {fileID: 2322359562499694090, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: hitSprits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 18013235cfd9ea54abdcc0e3faca03ed,
+        type: 3}
+    - target: {fileID: 2322359562499694090, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: hitSprits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 343b648bb01450a4caa104325fe69c86,
+        type: 3}
+    - target: {fileID: 2322359562499694094, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_Name
+      value: Block Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694094, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322359562499694094, guid: e9ad6ffb9fd06264dbcfac60cffbce08,
+        type: 3}
+      propertyPath: m_TagString
+      value: Breakable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9ad6ffb9fd06264dbcfac60cffbce08, type: 3}
